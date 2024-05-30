@@ -1,0 +1,20 @@
+En mayo del 2024:
+
+App Web (war)
+Incluye scripts de creacion de BD
+
+Compatible con apache tomcat 10.1:
+Spec Servlet 6.0
+Spec JSP 3.1
+Spec JSTL 3.0
+Spec EL 5.0
+
+Usa y configura el pool de conexiones de tomcat
+-Ver carpeta recursosTomcat/META-INF y context.xml
+-Ver config de plugin maven-war-plugin en el pom.xml
+
+Compatible con Hibernate 6.5:
+Spec Jakarta Persistence (antes JPA) 3.1 
+
+Java 17
+Usar preferentemente MySQL 8 en adelante

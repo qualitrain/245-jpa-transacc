@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+	#contenedor{
+		margin-top:10px;
+		margin-left:auto;
+		margin-right: auto;
+		background-color: hsl(130,30%,97%);
+		border-radius: 5px;
+		padding: 10px;
+		width: 800px;
+		box-shadow: hsla(0, 100%, 0%, 0.35) 0px 5px 15px;
+		font-family: Garamond, Helvetica, sans-serif;
+		font-size: 1.1rem;
+	}
+	h3{
+		text-align: center;
+		margin-top: 0px;
+	}
+	table{
+		border: 1px solid hsl(130,80%,30%);
+		border-radius: 5px;
+		width: 100%;
+		font-size: 1.1rem;
+		line-height: 1.3rem;
+		background-color: hsl(100,100%,90%);
+	}
+	tr:nth-child(2n){
+		background-color: hsl(100,100%,94%);
+	}
+	th{
+		background-color: hsl(160,100%,30%);
+		color:white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	td{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	label{
+		font-weight: bold;
+	}
+	select, input[type="number"]{
+		height: 2rem; 
+		padding: 5px;
+		border-radius: 5px;
+
+	}
+	button, input[type="submit"]{
+		height: 2rem;
+		width: 10rem; 
+		border-radius: 5px;	
+		background-color: hsl(160,90%,25%);
+		color:white;
+		margin-right: 1rem;
+		font-size: 1rem;
+	}
+	#idCantArt{
+		width: 3rem;
+		text-align: center;
+	}
+	.labelSecundaria{
+		margin-left: 2rem;
+	}
+	.cantidad{
+		text-align: center;
+	}
+	.importe{
+		text-align: right;
+		color: hsl(160,90%,25%);
+	}
+	.total{
+		font-weight: bold;
+	}
